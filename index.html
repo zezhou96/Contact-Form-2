@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the paragraph that describes this page to be viewed in some search engines">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Form Part Two</title>
+  	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+
+<body>
+	<header>
+		<h1>Contact Form Part Two</h1>
+	</header>
+		<main>
+			<form action="#" method="post">
+				
+				<fieldset>
+				<p>Thank you for your interest, please give us a little more information</p>
+				<div class="flex-container"> 
+					<div>
+						<label for="fname">First name:</label>
+					  	<input type="text" id="fname" required autofocus autocomplete="on">
+					</div>
+  					<div>
+  						<label for="lname">Last name:</label>
+  					  	<input type="text" id="lname" required autocomplete="on">
+  					</div>
+  					<div>
+  						<label for="email">Enter your email:</label>
+  					  	<input type="email" id="email" required autocomplete="on">
+  					</div>
+  					<div>
+  						<label for="website">Enter your Website:</label>
+  					  	<input type="url" id="website" autocomplete="off" placeholder="http://my-website.com">
+  					</div>
+  					<div class="side-by-side">
+  						<label for="employees">Enter your Employees (between 1 and 100):</label>
+  					  	<input type="number" id="employees" min="1" max="100">
+					</div>
+					<div class="side-by-side">
+  						<label for="n-profit">Non-profit</label>
+  					  	<input type="checkbox" id="n-profit" value="checked">
+					</div>
+					<div>
+						<label for="subject">Choose a Subject</label>
+  						<select id="subject">
+  							<option value="information">Information Request</option>
+  							<option value="application">Application Request</option>
+  							<option value="reprint">Reprint Request</option>
+  						</select>
+					</div>
+					<div>
+						<label for="message">Message</label>
+  						<textarea id="message" maxlength="290"></textarea>
+					</div>
+  					<div>
+  						<input type="submit" value="Submit">
+  					</div>
+  					<div class="terms">
+  						<p>By signing up you are agreeing to our <a href="#">Terms of Service</a></p>
+  					</div>
+				</div> <!-- This is the end of the flex-container	 -->
+				</fieldset>
+			</form>
+		</main>
+	
+	
+	<footer>
+		<p>Markis Day | &copy; 2021</p>
+	</footer>
+</body>
+
+</html>
